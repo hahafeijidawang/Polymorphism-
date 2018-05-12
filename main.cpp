@@ -10,7 +10,7 @@ public:
         this->a=a;
         cout<<"a"<<a<<endl;
     }
-    //多态标志
+    //多态标志+virtual
  void print(){
 
         cout<<"Parent print()"<<a<<endl;
